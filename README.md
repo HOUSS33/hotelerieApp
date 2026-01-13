@@ -2,7 +2,7 @@
 
 A web-based hotel booking and management platform that allows users to search for hotels, make reservations, and enables administrators to manage rooms, bookings, and customers efficiently.
 
-![Hotel App Screenshot](ME.jpg)
+![ME](https://github.com/user-attachments/assets/9dea876b-8337-44db-991f-842a0cde66bc)
 
 ---
 
