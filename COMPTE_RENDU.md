@@ -76,51 +76,51 @@ API REST (Spring Boot)
 Base de données (PostgreSQL)
 ````
 
-6. Sécurité
+## 6. Sécurité
 
-Mise en place de l’authentification via JSON Web Tokens (JWT).
+- Mise en place de l’authentification via JSON Web Tokens (JWT).  
+- Hachage des mots de passe avec BCrypt.  
+- Séparation des rôles utilisateurs (`USER` / `ADMIN`).  
+- Protection des routes sensibles.  
 
-Hachage des mots de passe avec BCrypt.
+---
 
-Séparation des rôles utilisateurs (USER / ADMIN).
+## 7. Déploiement et environnement
 
-Protection des routes sensibles.
+- Le frontend est prévu pour être déployé sur une plateforme de type Vercel ou Netlify.  
+- Le backend est prévu pour être déployé sur une plateforme de type Render ou Railway.  
+- La base de données est prévue pour être hébergée sur un service PostgreSQL cloud.  
 
-7. Déploiement et environnement
+---
 
-Le frontend est prévu pour être déployé sur une plateforme de type Vercel ou Netlify.
+## 8. Résultats
 
-Le backend est prévu pour être déployé sur une plateforme de type Render ou Railway.
+- L’application permet la réservation et l’annulation de chambres.  
+- Les administrateurs peuvent gérer les hôtels, chambres et utilisateurs.  
+- Les données sont persistées dans une base PostgreSQL.  
+- Le système d’authentification est fonctionnel.  
 
-La base de données est prévue pour être hébergée sur un service PostgreSQL cloud.
+---
 
-8. Résultats
+## 9. Difficultés rencontrées
 
-L’application permet la réservation et l’annulation de chambres.
+- Configuration initiale de l’environnement Spring Boot.  
+- Gestion des relations entre entités dans la base de données.  
+- Synchronisation entre frontend et backend.  
 
-Les administrateurs peuvent gérer les hôtels, chambres et utilisateurs.
+---
 
-Les données sont persistées dans une base PostgreSQL.
+## 10. Conclusion
 
-Le système d’authentification est fonctionnel.
+Le projet a permis de mettre en œuvre une plateforme fonctionnelle répondant aux objectifs initiaux.  
+Les principales fonctionnalités prévues ont été implémentées et testées.  
 
-9. Difficultés rencontrées
+Ce compte rendu présente de manière factuelle les étapes, outils et résultats du projet.  
 
-Configuration initiale de l’environnement Spring Boot.
+---
 
-Gestion des relations entre entités dans la base de données.
+## Auteur
 
-Synchronisation entre frontend et backend.
-
-10. Conclusion
-
-Le projet a permis de mettre en œuvre une plateforme fonctionnelle répondant aux objectifs initiaux.
-Les principales fonctionnalités prévues ont été implémentées et testées.
-
-Ce compte rendu présente de manière factuelle les étapes, outils et résultats du projet.
-
-Auteur
-
-Nom : Ton Nom
-Projet : Hotel Booking and Management
-Année : 2026
+- Nom : Ton Nom  
+- Projet : Hotel Booking and Management  
+- Année : 2026  
