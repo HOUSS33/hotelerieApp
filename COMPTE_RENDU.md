@@ -74,3 +74,53 @@ API REST (Spring Boot)
         |
         v
 Base de données (PostgreSQL)
+````
+
+6. Sécurité
+
+Mise en place de l’authentification via JSON Web Tokens (JWT).
+
+Hachage des mots de passe avec BCrypt.
+
+Séparation des rôles utilisateurs (USER / ADMIN).
+
+Protection des routes sensibles.
+
+7. Déploiement et environnement
+
+Le frontend est prévu pour être déployé sur une plateforme de type Vercel ou Netlify.
+
+Le backend est prévu pour être déployé sur une plateforme de type Render ou Railway.
+
+La base de données est prévue pour être hébergée sur un service PostgreSQL cloud.
+
+8. Résultats
+
+L’application permet la réservation et l’annulation de chambres.
+
+Les administrateurs peuvent gérer les hôtels, chambres et utilisateurs.
+
+Les données sont persistées dans une base PostgreSQL.
+
+Le système d’authentification est fonctionnel.
+
+9. Difficultés rencontrées
+
+Configuration initiale de l’environnement Spring Boot.
+
+Gestion des relations entre entités dans la base de données.
+
+Synchronisation entre frontend et backend.
+
+10. Conclusion
+
+Le projet a permis de mettre en œuvre une plateforme fonctionnelle répondant aux objectifs initiaux.
+Les principales fonctionnalités prévues ont été implémentées et testées.
+
+Ce compte rendu présente de manière factuelle les étapes, outils et résultats du projet.
+
+Auteur
+
+Nom : Ton Nom
+Projet : Hotel Booking and Management
+Année : 2026
